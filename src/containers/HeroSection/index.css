@@ -1,0 +1,12 @@
+.title h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 100px;
+}
+.title h1 span {
+  color: #219f94;
+}

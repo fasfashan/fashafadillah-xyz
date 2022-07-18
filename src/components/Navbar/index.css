@@ -1,0 +1,16 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 16px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.navbar-brand img:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
