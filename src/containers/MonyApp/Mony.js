@@ -1,17 +1,17 @@
 import React from "react";
 import "./index.css";
 import { Container, Col, Row } from "react-bootstrap";
-import ImageSection from "../../assets/img/co-working.png";
+import ImageSection from "../../assets/img/mony-app.png";
 import ButtonPrimary from "../../components/buttonprimary/Button";
-const CoworkingSpace = () => {
+const Mony = () => {
   return (
-    <div className="prowork" id="work">
+    <div className="mony" id="work">
       <Container>
         <Row className="d-flex align-items-center">
           <Col xl={5}>
             <div className="header">
-              <p className="title">Website App</p>
-              <h3>ProWork: Co-working Space for many business</h3>
+              <p className="title">Mobile App</p>
+              <h3>Mony: Paying your bills become fast and efficient</h3>
               <p>Pro-Work is a website to help startups find the right workspace for them. In this project, I work as a UI Designer and also a Front-end Developer.</p>
               <ButtonPrimary>Read case study</ButtonPrimary>
             </div>
@@ -27,4 +27,4 @@ const CoworkingSpace = () => {
   );
 };
 
-export default CoworkingSpace;
+export default Mony;

@@ -3,6 +3,7 @@ import "./index.css";
 import { Container, Col, Row } from "react-bootstrap";
 import ImageSection from "../../assets/img/lexis.png";
 import ButtonSecondary from "../../components/buttonsecondary/ButtonSecondary";
+
 const Lexis = () => {
   return (
     <div className="lexis">

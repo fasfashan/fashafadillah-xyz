@@ -1,3 +1,15 @@
-span svg:hover {
-  display: none;
+.button-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 15px;
+  border-color: transparent;
+  padding: 4px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.button-primary:hover {
+  background-color: #0a2540;
+  transition: all 0.5s;
+  cursor: not-allowed;
 }

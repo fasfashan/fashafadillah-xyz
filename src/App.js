@@ -3,6 +3,7 @@ import NavigationBar from "./components/Navbar/NavigationBar";
 import HeroSection from "./containers/HeroSection/HeroSection";
 import CoworkingSpace from "./containers/CoworkingSpace/CoworkingSpace";
 import Lexis from "./containers/Lexis/Lexis";
+import Mony from "./containers/MonyApp/Mony";
 import "./index.css";
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section>
         <Lexis />
+      </section>
+      <section>
+        <Mony />
       </section>
     </div>
   );
