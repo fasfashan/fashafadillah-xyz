@@ -2,11 +2,18 @@
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 4.375rem;
   line-height: 80px;
-  text-align: center;
-  margin-top: 100px;
+}
+.heroSection {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .title h1 span {
   color: #219f94;
+}
+.heroSection p {
+  font-size: 1.5rem;
 }

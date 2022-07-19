@@ -1,33 +1,30 @@
-.prowork {
+.lexis {
   padding: 100px 0;
-  background-color: #f5f5f5;
+  background-color: #1d504b;
 }
-.prowork p {
+.lexis p {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  /* or 140% */
-
   letter-spacing: -0.017em;
-
-  /* Neutral/80 */
-
-  color: #616161;
+  color: #c2c2c2;
   margin-top: 8px;
+  font-weight: 500;
 }
-.prowork h3 {
+.lexis h3 {
   margin-top: 24px;
+  color: white;
   font-weight: 600;
 }
-.prowork button {
+.lexis button {
   margin-top: 24px;
 }
-.header .title {
-  color: var(--primary-color);
+.lexis .header .title {
+  color: #e8e8a6;
   font-weight: 500;
 }
 @media (max-width: 1199.98px) {
-  .prowork button {
+  .lexis button {
     margin-bottom: 32px;
   }
 }

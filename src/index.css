@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Barlow", sans-serif !important;
+  overflow-x: hidden;
 }
 
 code {

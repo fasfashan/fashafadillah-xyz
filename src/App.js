@@ -1,14 +1,22 @@
 import "./App.css";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import HeroSection from "./containers/HeroSection/HeroSection";
+import CoworkingSpace from "./containers/CoworkingSpace/CoworkingSpace";
+import Lexis from "./containers/Lexis/Lexis";
 import "./index.css";
 function App() {
   return (
     <div className="App">
-      <div className="Header">
+      <header className="Header">
         <NavigationBar />
         <HeroSection />
-      </div>
+      </header>
+      <section>
+        <CoworkingSpace />
+      </section>
+      <section>
+        <Lexis />
+      </section>
     </div>
   );
 }
