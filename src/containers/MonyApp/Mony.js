@@ -15,6 +15,13 @@ const Mony = () => {
               <p>Pro-Work is a website to help startups find the right workspace for them. In this project, I work as a UI Designer and also a Front-end Developer.</p>
               <ButtonPrimary>Read case study</ButtonPrimary>
             </div>
+            <blockquote class="twitter-tweet">
+              <p lang="in" dir="ltr">
+                Gimana ya rasanya jadi admin sosmed Kominfo sekarang-sekarang ini?
+              </p>
+              &mdash; Fasha Fadillah (@fasfashan) <a href="https://twitter.com/fasfashan/status/1549564116376768512?ref_src=twsrc%5Etfw">July 20, 2022</a>
+            </blockquote>{" "}
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </Col>
           <Col xl={7}>
             <div className="ImageSection">
