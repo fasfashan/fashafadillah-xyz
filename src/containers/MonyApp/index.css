@@ -26,6 +26,10 @@
   color: var(--primary-color);
   font-weight: 500;
 }
+.header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 @media (max-width: 1199.98px) {
   .mony button {
     margin-bottom: 32px;

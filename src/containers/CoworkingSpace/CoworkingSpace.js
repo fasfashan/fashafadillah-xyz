@@ -13,7 +13,7 @@ const CoworkingSpace = () => {
               <p className="title">Website App</p>
               <h3>ProWork: Co-working Space for many business</h3>
               <p>Pro-Work is a website to help startups find the right workspace for them. In this project, I work as a UI Designer and also a Front-end Developer.</p>
-              <ButtonPrimary>Read case study</ButtonPrimary>
+              <ButtonPrimary>Case study in progress</ButtonPrimary>
             </div>
           </Col>
           <Col xl={7}>

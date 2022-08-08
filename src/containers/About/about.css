@@ -1,0 +1,23 @@
+.about {
+  padding: 100px 0;
+  background-color: #1d504b;
+}
+.about p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.017em;
+  color: #c2c2c2;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.about h3 {
+  margin-top: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+.about .header .title {
+  color: #e8e8a6;
+  font-weight: 500;
+}

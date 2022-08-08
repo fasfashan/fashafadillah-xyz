@@ -1,15 +1,12 @@
 .button-primary {
-  background-color: var(--primary-color);
-  color: #fff;
+  background: #ededed;
+  /* Neutral/40 */
+  color: #9e9e9e;
+  border: 1px solid #e0e0e0;
   font-size: 15px;
   border-color: transparent;
   padding: 4px 12px;
   border-radius: 50px;
-  cursor: pointer;
+  user-select: none;
   font-weight: 500;
-}
-.button-primary:hover {
-  background-color: #0a2540;
-  transition: all 0.5s;
-  cursor: not-allowed;
 }

@@ -4,6 +4,8 @@ import HeroSection from "./containers/HeroSection/HeroSection";
 import CoworkingSpace from "./containers/CoworkingSpace/CoworkingSpace";
 import Lexis from "./containers/Lexis/Lexis";
 import Mony from "./containers/MonyApp/Mony";
+import About from "./containers/About/About";
+import Footer from "./containers/Footer/Footer";
 import "./index.css";
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
       </section>
       <section>
         <Mony />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

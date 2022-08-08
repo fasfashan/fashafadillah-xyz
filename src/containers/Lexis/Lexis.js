@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import { Container, Col, Row } from "react-bootstrap";
 import ImageSection from "../../assets/img/lexis.png";
-import ButtonSecondary from "../../components/buttonsecondary/ButtonSecondary";
+import ButtonPrimary from "../../components/buttonprimary/Button";
 
 const Lexis = () => {
   return (
@@ -13,8 +13,8 @@ const Lexis = () => {
             <div className="header">
               <p className="title">Landing Page</p>
               <h3>Lexis: Best Interior Design for Your Home</h3>
-              <p>Pro-Work is a website to help startups find the right workspace for them. In this project, I work as a UI Designer and also a Front-end Developer.</p>
-              <ButtonSecondary>Read case study</ButtonSecondary>
+              <p>This is not a real project. but in this study case I made a design with a different style to my previous design.</p>
+              <ButtonPrimary>Case study in progress</ButtonPrimary>
             </div>
           </Col>
           <Col xl={7}>
